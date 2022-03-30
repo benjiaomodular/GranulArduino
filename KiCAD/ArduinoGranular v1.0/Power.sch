@@ -495,4 +495,13 @@ F 3 "" H 5250 5050 50  0001 C CNN
 	1    5250 5050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5500 2525 5500 2625
+Connection ~ 5500 2825
+Connection ~ 5500 2625
+Wire Wire Line
+	5500 2625 5500 2725
+Connection ~ 5500 2725
+Wire Wire Line
+	5500 2725 5500 2825
 $EndSCHEMATC

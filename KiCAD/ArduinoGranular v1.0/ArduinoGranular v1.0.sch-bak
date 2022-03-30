@@ -70,10 +70,6 @@ Wire Wire Line
 	6000 4200 6125 4200
 Wire Wire Line
 	6000 4300 6125 4300
-Text GLabel 6000 4400 0    50   Input ~ 0
-SYNC
-Wire Wire Line
-	6000 4400 6125 4400
 Text GLabel 7250 3700 2    50   Output ~ 0
 ARDUINO_OUTPUT
 Wire Wire Line
@@ -97,19 +93,6 @@ Text GLabel 4550 6550 2    50   Output ~ 0
 GRAIN2_DECAY
 Wire Wire Line
 	4550 6550 4425 6550
-$Comp
-L Connector:AudioJack2_SwitchT J2
-U 1 1 6234AE81
-P 1400 1075
-AR Path="/6234AE81" Ref="J2"  Part="1" 
-AR Path="/6254A2BB/6234AE81" Ref="J?"  Part="1" 
-F 0 "J2" H 1220 1008 50  0000 R CNN
-F 1 "GRAIN1_FREQ" H 1220 1099 50  0000 R CNN
-F 2 "" H 1400 1075 50  0001 C CNN
-F 3 "~" H 1400 1075 50  0001 C CNN
-	1    1400 1075
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 6234AE87
@@ -1595,4 +1578,36 @@ Wire Notes Line
 	9200 6475 5350 6475
 Wire Notes Line
 	5350 6475 5350 5250
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 6234AE81
+P 1400 1075
+AR Path="/6234AE81" Ref="J2"  Part="1" 
+AR Path="/6254A2BB/6234AE81" Ref="J?"  Part="1" 
+F 0 "J2" H 1220 1008 50  0000 R CNN
+F 1 "GRAIN1_FREQ" H 1220 1099 50  0000 R CNN
+F 2 "" H 1400 1075 50  0001 C CNN
+F 3 "~" H 1400 1075 50  0001 C CNN
+	1    1400 1075
+	1    0    0    1   
+$EndComp
+NoConn ~ 6425 3000
+NoConn ~ 6525 3000
+NoConn ~ 6125 3400
+NoConn ~ 6125 3500
+NoConn ~ 7125 3400
+NoConn ~ 7125 3500
+NoConn ~ 7125 3600
+NoConn ~ 7125 4000
+NoConn ~ 7125 4100
+NoConn ~ 7125 4200
+NoConn ~ 7125 4300
+NoConn ~ 7125 4400
+NoConn ~ 7125 4500
+NoConn ~ 7125 4600
+NoConn ~ 7125 4700
+NoConn ~ 6125 4500
+NoConn ~ 6125 4600
+NoConn ~ 6125 4700
+NoConn ~ 6125 4400
 $EndSCHEMATC

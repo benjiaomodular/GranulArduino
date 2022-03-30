@@ -70,10 +70,6 @@ Wire Wire Line
 	6000 4200 6125 4200
 Wire Wire Line
 	6000 4300 6125 4300
-Text GLabel 6000 4400 0    50   Input ~ 0
-SYNC
-Wire Wire Line
-	6000 4400 6125 4400
 Text GLabel 7250 3700 2    50   Output ~ 0
 ARDUINO_OUTPUT
 Wire Wire Line
@@ -1595,4 +1591,23 @@ F 3 "~" H 1400 1075 50  0001 C CNN
 	1    1400 1075
 	1    0    0    1   
 $EndComp
+NoConn ~ 6425 3000
+NoConn ~ 6525 3000
+NoConn ~ 6125 3400
+NoConn ~ 6125 3500
+NoConn ~ 7125 3400
+NoConn ~ 7125 3500
+NoConn ~ 7125 3600
+NoConn ~ 7125 4000
+NoConn ~ 7125 4100
+NoConn ~ 7125 4200
+NoConn ~ 7125 4300
+NoConn ~ 7125 4400
+NoConn ~ 7125 4500
+NoConn ~ 7125 4600
+NoConn ~ 7125 4700
+NoConn ~ 6125 4500
+NoConn ~ 6125 4600
+NoConn ~ 6125 4700
+NoConn ~ 6125 4400
 $EndSCHEMATC
