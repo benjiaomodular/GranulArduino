@@ -1610,4 +1610,12 @@ NoConn ~ 6125 4500
 NoConn ~ 6125 4600
 NoConn ~ 6125 4700
 NoConn ~ 6125 4400
+Text Notes 675  7375 0    50   ~ 0
+Grain Controls
+Text Notes 5450 2475 0    50   ~ 0
+Pitch Control
+Text Notes 5450 5100 0    50   ~ 0
+Arduino
+Text Notes 5450 6400 0    50   ~ 0
+Output
 $EndSCHEMATC
